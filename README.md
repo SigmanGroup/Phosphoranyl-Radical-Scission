@@ -1,5 +1,4 @@
-# P-radical scission
-## Predicting Scission Selectivity of Phosphoranyl Radical Intermediates
+# Predicting Scission Selectivity of Phosphoranyl Radical Intermediates
 
 This repository contains the code for predicting scission selectivity of phosphoranyl radical intermediates as a function of phosphine identity. For in depth information, please refer to our manuscript ~insert-link~
 
