@@ -17,7 +17,7 @@ Two conda environments (modeling_env.yml and feature_curation_env.yml) are provi
 1. Create a conda environment with the included environment YAML file.
 
   ```bash
-  conda env create --file=modeling_env.yml --name=modeling
+  conda env create --file=modeling_env_p_radical.yml --name=modeling_p_radical
   ```
 2. Activate the new environment
   ```bash
