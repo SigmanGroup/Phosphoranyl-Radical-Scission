@@ -4,7 +4,7 @@ This repository contains the code for predicting scission selectivity of phospho
 
 The files, directories, and their respective contents are listed below:
 1) Scission_selectivity_modeling_and_predictions.ipynb: Jupyter notebook containing the code for reproducing the 4-feature MLR model and predicting scission selectivity for other phosphines in Kraken.
-2) InputData: CSV/Excel file containing experimental data, the latest/updated spreadsheet of kraken library, and the filters.csv file that has information regarding general scaffolds of phosphines and their commercial availability.
+2) InputData: CSV / Excel file comprising (i) experimental data, (ii) the most recent and updated version of the Kraken library spreadsheet, and (iii) a filters.csv file containing information on various phosphine scaffolds and their commercial availability within the Kraken library
 3) OutputData: CSV containing the predictions of scission selectivity on all PC3 phosphines, as well as commercially available PC3 phosphines.
 4) P-radical structures: Computed P-radical structures exhibiting tetrahedral and trigonal-bipyramidal geometries.
 5) Transition state (TS) calculations: Completed log files of TS, IRC, and their respective energies listed in a CSV/Excel.
