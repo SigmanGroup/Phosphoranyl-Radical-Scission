@@ -21,7 +21,7 @@ Two conda environments (modeling_env.yml and feature_curation_env.yml) are provi
   ```
 2. Activate the new environment
   ```bash
-  conda activate modeling
+  conda activate modeling_p_radical
   ```
 # Usage
 The MLR model and predictions for new phosphines can be run using the Scission_selectivity_modeling_and_predictions.ipynb notebook. Any new input data should be stored in the InputData folder and formatted similarly to the experimental_data_and_kraken_descriptors.xlsx file provided, with a row for each descriptor name and its value. 
