@@ -1,4 +1,5 @@
-# Predicting Scission Selectivity of Phosphoranyl Radical Intermediates
+# P-radical scission
+## Predicting Scission Selectivity of Phosphoranyl Radical Intermediates
 
 This repository contains the code for predicting scission selectivity of phosphoranyl radical intermediates as a function of phosphine identity. For in depth information, please refer to our manuscript ~insert-link~
 
@@ -9,7 +10,7 @@ The files, directories, and their respective contents are listed below:
 4) P-radical structures: Computed P-radical structures exhibiting tetrahedral and trigonal-bipyramidal geometries.
 5) Transition state (TS) calculations: Completed log files of TS, IRC, and their respective energies listed in a CSV/Excel.
 
-## Installation 
+### Installation 
 The required environments for this project were modified from the Python modeling script from the Sigman Group (https://github.com/SigmanGroup/python-modeling)
 
 YAML file modeling_env_p_radical.yml is provided for creating the necessary environment and packages.
@@ -25,5 +26,5 @@ YAML file modeling_env_p_radical.yml is provided for creating the necessary envi
   ```
 3. Please select the appropriate kernel (modeling_p_radical) when you use the jupyter notebook.
    
-# Usage
+### Usage
 The MLR model used in the manuscript can be reproduced and used for predicting Ln(B/A) for new phosphines in the Scission_selectivity_modeling_and_predictions.ipynb notebook. Any new input data that the user would like to include in any of the modeling attempts should be stored in the InputData folder and formatted similarly to the experimental_data_and_kraken_descriptors.xlsx file provided, with a row for each descriptor name and its value. If the user wants to make predictions for a new phosphine that is not present in kraken data, the phosphine can be calculated using the kraken workflow (https://github.com/SigmanGroup/kraken).
