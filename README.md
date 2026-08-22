@@ -1,6 +1,6 @@
 # Predicting Scission Selectivity of Phosphoranyl Radical Intermediates
 
-This repository contains the code for predicting scission selectivity of phosphoranyl radical intermediates as a function of phosphine identity. For in depth information, please refer to our manuscript ~insert-link~
+This repository contains the code for predicting scission selectivity of phosphoranyl radical intermediates as a function of phosphine identity. For in depth information, please refer to our manuscript (https://doi.org/10.1021/jacs.6c11233)
 
 The files, directories, and their respective contents are listed below:
 1) Scission_selectivity_modeling_and_predictions.ipynb: Jupyter notebook containing the code for reproducing the 4-feature MLR model and predicting scission selectivity for other phosphines in Kraken.
@@ -29,4 +29,4 @@ YAML file modeling_env_p_radical.yml is provided for creating the necessary envi
 The MLR model used in the manuscript can be reproduced and used for predicting Ln(B/A) for new phosphines in the Scission_selectivity_modeling_and_predictions.ipynb notebook. Any new input data that the user would like to include in any of the modeling attempts should be stored in the InputData folder and formatted similarly to the experimental_data_and_kraken_descriptors.xlsx file provided, with a row for each descriptor name and its value. If the user wants to make predictions for a new phosphine that is not present in kraken data, the phosphine can be calculated using the kraken workflow (https://github.com/SigmanGroup/kraken).
 
 ### Citation
-For use of the materials available on this repository please cite the related manuscript: ~insert citation~
+For use of the materials available on this repository, please cite the related manuscript: ~insert citation~
